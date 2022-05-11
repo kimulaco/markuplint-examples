@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>{{ heading }}</h2>
+    <h2>heading {{ headingCount }}</h2>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -39,7 +39,7 @@ export default defineComponent({
   name: 'HelloWorld',
   data() {
     return {
-      heading: 'heading',
+      headingCount: 1,
     };
   },
   props: {
