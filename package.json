@@ -10,7 +10,8 @@
     "examples/*"
   ],
   "scripts": {
-    "lint": "npm run lint -w examples/*"
+    "lint": "npm run lint -w examples/*",
+    "lint:markup": "npm run lint:markup -w examples/*"
   },
   "devDependencies": {
     "@vue/cli": "^5.0.4"
