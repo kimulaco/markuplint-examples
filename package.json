@@ -1,0 +1,18 @@
+{
+  "name": "markuplint-examples",
+  "version": "0.1.0",
+  "description": "markuplint example projects",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "examples/*"
+  ],
+  "scripts": {
+    "lint": "npm run lint -w examples/*"
+  },
+  "devDependencies": {
+    "@vue/cli": "^5.0.4"
+  }
+}
