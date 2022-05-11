@@ -14,6 +14,7 @@
     "lint:markup": "npm run lint:markup -w examples/*"
   },
   "devDependencies": {
-    "@vue/cli": "^5.0.4"
+    "@vue/cli": "^5.0.4",
+    "create-react-app": "^5.0.1"
   }
 }
